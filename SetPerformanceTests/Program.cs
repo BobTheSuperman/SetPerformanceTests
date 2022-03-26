@@ -15,10 +15,14 @@ namespace SetPerformanceTests
     }
     class Program
     {
+        #region public variables
+
         public static WordCount TestWordCount = WordCount.Maximum;
         public static Stopwatch SW = new Stopwatch();
         public static HashSet<string> testHashSet = new HashSet<string>();
         public static SortedSet<string> testSortedSet = new SortedSet<string>();
+
+        #endregion
 
         static void Main(string[] args)
         {
